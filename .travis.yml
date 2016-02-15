@@ -2,8 +2,9 @@ os: osx
 
 language: java
 
-jdk: oraclejdk8
+#jdk: oraclejdk8
 
 script:
+  - jdk_switcher use oraclejdk8
   - gradle build
   
